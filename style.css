@@ -1,6 +1,6 @@
 body {
         background-color: #aca9be;
-        margin: 10px;
+        padding: 16px;
     }
 
 header {
@@ -89,7 +89,7 @@ figcaption {
 figure { 
         display: block; 
         margin: 5px; 
-        padding: 5px; 
+         
         text-align: left;}
 
 figure img { 
