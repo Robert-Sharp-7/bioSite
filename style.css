@@ -1,34 +1,9 @@
 body {
-        background-color: #aca9be;
-        padding: 16px;
+        background-color: #aca9be;         
     }
 
 header {
         float: right;
-    }
-
-ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #333333;
-    }
-
-li {
-        float: left;
-    }
-
-li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 16px;
-        text-decoration: none;
-    }
-
-li a:hover {
-        background-color: #111111;
     }
 
 h1 {
@@ -80,28 +55,25 @@ figcaption {
 
 #gallery {
         background-color: #5b6cba;
-        text-align: center;
     }
-
+/* Gave each figure tag a class to use with CSS */
+.grad, .happy, .taylor, .cake, .dress, .wedding
+        {align-content: center; 
+    }
+/* Took away all the margins, I like the space between the pictures a lot more now */
 .photos { 
-        width: 220px; 
         float: left; 
-        /*margin: 42px; 
-        padding: 5px/*;
     }
 figure { 
         display: block; 
-        margin: 10px; 
-        padding: 5px;  
-        text-align: left;
-    }
+        margin: 5px; 
+        padding: 5px; 
+        text-align: left;}
 
 figure img { 
-        border: 2px solid #9669ea;
-    }
+        border: 2px solid #9669ea;}
 figcaption {
-        padding-left: 5px;
-    }
+        padding-left: 5px;}
 
 footer {
         float: left; 
