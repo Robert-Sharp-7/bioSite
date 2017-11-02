@@ -1,5 +1,6 @@
 body {
-        background-color: #aca9be;         
+        background-color: #aca9be;
+        margin: 10px;
     }
 
 header {
@@ -79,6 +80,7 @@ figcaption {
 
 #gallery {
         background-color: #5b6cba;
+        text-align: center;
     }
 
 .photos { 
