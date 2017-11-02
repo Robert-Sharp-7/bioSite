@@ -86,8 +86,8 @@ figcaption {
 .photos { 
         width: 220px; 
         float: left; 
-        margin: 42px; 
-        padding: 5px;
+        /*margin: 42px; 
+        padding: 5px/*;
     }
 figure { 
         display: block; 
