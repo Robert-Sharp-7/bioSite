@@ -18,6 +18,11 @@ li {
         float: left;
     }
 
+#profile 
+    {   
+        float: left;
+    }
+
 li a {
         display: block;
         color: white;
